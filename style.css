@@ -1,0 +1,349 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+body {
+    line-height: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #333;
+    transition: all .3s linear;
+}
+
+header {
+    padding: 30px 100px;
+}
+
+.header-wrap {
+    max-width: 1300px;
+
+    margin: 0 auto;
+    display: block;
+}
+
+.header-wrap nav {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.header-wrap nav ul {
+    display: flex;
+    gap: 20px;
+
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.header-wrap nav ul li a {
+    text-decoration: none;
+    color: #777;
+    margin: 0 10px;
+
+    padding: 5px;
+
+}
+
+.header-wrap nav ul li a:hover,
+.header-wrap nav a.last-title:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+.header-wrap nav a.title {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.header-wrap nav a.title:hover {
+
+    color: #777;
+}
+
+.header-wrap nav a.last-title {
+    justify-content: right;
+    display: flex;
+    justify-items: right;
+    color: #777;
+    text-decoration: none;
+}
+
+/* Cotainer section */
+.bg {
+    margin-top: 45px;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding: 45px;
+}
+
+.container {
+    width: 576px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+.container .post h2 {
+    font-size: 1.5em;
+    margin: 2em 0 1em 0;
+}
+
+.container .post {}
+
+.container .post #post-title {
+    color: #333;
+    font-size: 32px;
+    text-decoration: none;
+    margin: 2.5em 0 1.25em 0;
+}
+
+.container .post #post-title:hover {
+    color: #aaa;
+}
+
+.container .post .post-writing-by {
+    color: #aaa;
+    margin: 3em 0;
+}
+
+.container .post .post-writing-by a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+.container .post .post-writing-by a:hover {
+    color: #333;
+    line-height: 1.5em;
+}
+
+.container .post p {
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.post ul {
+    list-style-type: disc;
+    padding: .1em .0 0 1.1em;
+    margin-top: .5em;
+    text-align: left;
+    font-size: 18px;
+}
+
+.post ul li {
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+.post span a.give-talk {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.post span a.give-talk:hover {
+    border-bottom: 1px solid black;
+}
+
+a.see-all-post {
+    margin: 3em 0;
+    color: #aaa;
+    font-size: 26px;
+    text-decoration: none;
+    cursor: pointer;
+    display: block
+}
+
+.see-all-post:hover {
+    color: #333;
+}
+
+/* contianer-flex */
+.contianer-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #d3e4f0;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.contianer-flex .contianer-flex-item {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contianer-flex .container-flex-item img {
+    width: 250px;
+    height: 250px;
+}
+
+.contianer-flex .container-flex-item h2 {
+    font-size: 1.5em;
+    margin: 1em 0;
+    color: #4d4d4d;
+    font-weight: 400;
+}
+
+.contianer-flex .container-flex-item span {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.contianer-flex .container-flex-item strong {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.contianer-flex .container-flex-item p.inside {
+    font-weight: 900;
+    margin-bottom: 1.5em;
+}
+
+.contianer-flex .container-flex-item p {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+form {
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+form .input {
+    background: #ffffff;
+    font-size: 15px;
+    padding: 12px;
+    border: 1px solid #e3e3e3;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    line-height: 1.4;
+    margin: 0;
+    -webkit-transition: border-color ease-out 300ms;
+    transition: border-color ease-out 300ms;
+    width: 70%;
+    border-radius: 4px;
+    margin-right: 2%;
+}
+
+form .submit-btn {
+    color: #fff;
+    background-color: #5e5f5e;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+
+.last-paragarph {
+    margin-bottom: 5em;
+}
+
+/* life-changing */
+
+.life-changing {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 2.5em 0;
+    line-height: 150%;
+}
+
+.life-changing h1 {
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.25;
+    font-size: 1.5em;
+}
+
+.gray {
+    color: #aaa;
+}
+
+.life-changing .life-changing-cards {
+    padding: 2.5em 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 1240px;
+    margin: auto;
+
+}
+
+.life-changing .life-changing-cards .life-changing-card {
+
+    cursor: pointer;
+
+    background: #fff;
+    padding: 45px 30px;
+
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.10);
+
+    border-radius: 4px;
+    min-height: 250px;
+    min-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .5s linear;
+}
+
+.life-changing .life-changing-cards .life-changing-card:hover {
+    box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.10);
+}
+
+.social-area ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.social-area ul li {
+    list-style-type: none;
+
+    color: #777;
+}
+
+.social-area ul li a {
+    color: #777;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-last ul li {
+    list-style-type: none;
+
+    color: #777;
+}
+
+.footer-last ul li a {
+    color: #777;
+    text-decoration: none;
+    font-size: 18px;
+}
